@@ -224,6 +224,11 @@
 </thead>
 <tbody>
 <tr>
+<td>2026-08-07</td>
+<td><a href="./2026-08-07.html">open</a></td>
+<td>Claude Code 2.1.224 — the fleet release: sessions can now message each other across machines (<code>crossSessionInbound</code> + <code>dialogExpiry</code>, with messages into a bypassed-permissions session held for approval), the 200-subagent-per-session spawn cap is gone so long-running sessions stop refusing new agents, <code>claude self-hosted-runner</code> turns your own machines into session hosts, and plugins install from a zip over HTTPS with optional SHA-256 pinning — cross-session messaging is the piece the cmux board hand-wires today, letting workers talk to each other directly instead of the orchestrator reading their screens</td>
+</tr>
+<tr>
 <td>2026-08-06</td>
 <td><a href="./2026-08-06.html">open</a></td>
 <td>Cloudflare OS — Cloudflare open-sourced the agent platform it runs itself on (HN 590, PH #1): browser agent workspaces grounded in org knowledge, "Gatekeeper" Workers mediating every resource an agent touches, a full-stack app platform on Durable Objects, and model routing via AI Gateway — used by thousands of CF employees since May, self-deployable into your own account (MIT <code>cloudflare/computer</code> primitive alongside); the qm thesis (Aug 1) from a hyperscaler, with the Gatekeeper authorization pattern as the piece to steal for a fleet touching client data</td>
