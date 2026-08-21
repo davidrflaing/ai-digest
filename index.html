@@ -224,6 +224,11 @@
 </thead>
 <tbody>
 <tr>
+<td>2026-08-21</td>
+<td><a href="./2026-08-21.html">open</a></td>
+<td>Claude Code 2.1.238 — a 39-change release whose two most useful fixes are unglamorous: custom, project and plugin <strong>output styles no longer drift back to the default voice mid-session</strong> (the bug that quietly un-applies a style like Answer First halfway through a long thread), and <strong>unbounded memory growth in long interactive sessions is fixed</strong> by releasing subagent tool results once they leave the recent display window — the leak that made all-day cmux workers get sluggish; also <code>keybindingFlavor: "readline"</code>, a <code>headersHelper</code> that lets a private plugin marketplace mint short-lived auth headers on install, <code>claude mcp list</code> no longer waking disabled servers to health-check them, and cross-session messaging finally reporting "refused"/"dropped" instead of silent success</td>
+</tr>
+<tr>
 <td>2026-08-20</td>
 <td><a href="./2026-08-20.html">open</a></td>
 <td>browser-use/video-use — MIT tool that lets you edit video by talking to Claude Code: strips filler words and silence, colour-grades segments, fades audio at cuts, burns subtitles, generates animation overlays, validates output, and keeps project memory between sessions — and it never processes frames, transcribing with ElevenLabs Scribe for word-level timestamps and rendering visual composites only when a decision needs one ("The LLM never watches the video. It reads it"), which is why it's cheap enough to run on every Skool call; Dave already pays for ElevenLabs and already runs Claude Code, so this is a same-day install that gives content-engine's repurposing spine the video arm it has never had</td>
