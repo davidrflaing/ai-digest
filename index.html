@@ -224,6 +224,11 @@
 </thead>
 <tbody>
 <tr>
+<td>2026-08-23</td>
+<td><a href="./2026-08-23.html">open</a></td>
+<td>akitaonrails/ai-memory — MIT long-term memory for coding agents, the week's biggest agent-tooling mover (4.2k★, +2,575): a single Rust binary whose lifecycle hooks capture sanitised observations from Claude Code, Codex, Cursor, Gemini CLI and a dozen other harnesses and compile them into a <strong>git-versioned markdown wiki</strong> backed by SQLite FTS5 + optional embeddings, so you can "quit Claude Code mid-task, start Codex in the same directory, continue without re-explaining the architecture"; works with no LLM at all, and the wiki is "plain markdown in a git repo — grep-able, openable in Obsidian" — the automatic capture layer under Dave's hand-written memory dir and <code>:consolidate</code> loops, sitting beside the vault rather than competing with it</td>
+</tr>
+<tr>
 <td>2026-08-22</td>
 <td><a href="./2026-08-22.html">open</a></td>
 <td>jundot/omlx — Apache-2.0 LLM inference server for Apple Silicon (20.3k★, +1,536 this week) with a native SwiftUI menubar app: continuous batching via mlx-lm's BatchGenerator, multi-model serving with LRU eviction, vision-language models with multi-image chat, and a <strong>tiered KV cache that keeps hot blocks in RAM and spills overflow to SSD as safetensors</strong> so context stops being capped by unified memory — plus drop-in OpenAI <em>and</em> Anthropic API compatibility, which means a launchd job can point at <code>localhost</code> without a rewrite; the local lane has had a shortlist tool (llmfit) and models worth running (Qwen3.8-27B) but never a serving layer, and this is it (macOS 15+, Python 3.11–3.13, M1–M5)</td>
