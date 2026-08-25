@@ -224,6 +224,11 @@
 </thead>
 <tbody>
 <tr>
+<td>2026-08-25</td>
+<td><a href="./2026-08-25.html">open</a></td>
+<td>NVIDIA/SkillEvaluator — open-source multi-tier framework that measures whether an agent skill actually improves performance, built on the finding that <strong>structural scans of skills correlate with judged usefulness at just ρ = 0.14</strong>: the metric that matters is <strong>Skill Lift</strong> (same task, identical sandboxes, with and without the skill, scored on the delta — Aug 12 snapshot across 300+ verified skills showed +31 average lift, with Claude Code at +34 vs Codex +29), run via <code>skillevaluator create-eval-dataset</code> → <code>tier3 evaluate</code> — Dave's audit-skill/skill-reviewer tooling is exactly the structural check this says barely predicts value, so running lift over the most-used skills in his 20+ plugins would show, with a number, which ones earn their context and which are decoration</td>
+</tr>
+<tr>
 <td>2026-08-24</td>
 <td><a href="./2026-08-24.html">open</a></td>
 <td>indranilbanerjee/digital-marketing-pro — an open-source <strong>marketing OS that installs as a Claude Code plugin</strong> (MIT, v3.31.1): 163 marketing skills, 24 specialist agents, a 12-part strategy flow, live API connectors, and — the part that matches Dave's own discipline — <strong>pre-publish quality gates for hallucination, voice consistency and claims verification</strong> plus C2PA provenance signing, a stranger's independent reinvention of his /copy-claims + voice rules shipped as reusable skills; worth mining the skill decomposition even though the generic-market framework never knows his canon (framework-bearing copy still runs /copy-claims first)</td>
