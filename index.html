@@ -224,6 +224,11 @@
 </thead>
 <tbody>
 <tr>
+<td>2026-08-28</td>
+<td><a href="./2026-08-28.html">open</a></td>
+<td>Claude Code 2.1.248 — a new <strong><code>--restricted</code> flag (<code>CLAUDE_CODE_RESTRICTED=1</code>)</strong> that removes the built-in tools that run commands or code and <code>WebFetch</code>, keeps file tools inside the working directory, <strong>refuses <code>bypassPermissions</code> and ignores user/project/local settings files</strong> — the per-surface split Dave decided on Aug 13 as one flag: a coaching-draft session gets the client profile directory and nothing that can run a shell, hit a URL or bypass a prompt, while fleet workers keep auto mode; same release fixes a prompt-cache miss (and lost extended-thinking context) that hit roughly once an hour in long sessions after OAuth token refreshes — a straight bill cut for all-day cmux workers — plus per-agent <code>experimental.cacheTtl</code>, <code>/loop</code> dynamic mode everywhere, and hooks that print invalid JSON now failing loudly instead of silently</td>
+</tr>
+<tr>
 <td>2026-08-27</td>
 <td><a href="./2026-08-27.html">open</a></td>
 <td>GoHighLevel's Workflow <strong>AI Agent action now runs Claude Opus 5 / Sonnet 5</strong> (plus Gemini 3.6 Flash / 3.1 Pro Preview) alongside OpenAI — from the Aug 17–21 release week, landing with Voice AI knowledge-gap detection, scheduled Ask AI prompts and AI-generated email templates — so the framework-aware triage and reply logic Dave prototypes in Claude Code can run <em>inside</em> his CRM's workflows on the same model family with no session involved; Summer of AI keeps GHL's whole AI layer free until <strong>Aug 31</strong>, so the build sprint is this week, with /copy-claims gating any framework-bearing prompt before it's pasted into a workflow</td>
