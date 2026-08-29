@@ -224,6 +224,11 @@
 </thead>
 <tbody>
 <tr>
+<td>2026-08-29</td>
+<td><a href="./2026-08-29.html">open</a></td>
+<td>Claude Code 2.1.251 (Aug 28) — new <strong><code>PreModelSwitch</code> / <code>PostModelSwitch</code> hooks</strong> that can block, confirm or annotate a model switch (the model-per-surface rule of Aug 13 as an enforced hook), a per-session <strong>prompt-cache line in <code>/cost</code></strong> (hit ratio, misses, tokens re-cached) as the receipt for yesterday's hourly cache-miss fix, and a run of permission-boundary fixes — file tools no longer follow a symlink swapped in after the permission check, plugin commands can't point outside their plugin directory, Grep/Glob honour <code>Read</code> deny rules through symlinks, Bash stops auto-approving <code>OPTIND=1/0</code>-style arithmetic, and Claude in Chrome actions now go through Claude Code's own permission checks — landing the day after Johann Rehberger showed a "summarise this website" request breaking Opus 5 auto mode 60–80% of the time via a shadowed <code>struct.py</code> (Anthropic: "a convenience feature… not a security guarantee"), which is the exact shape of Dave's own digest job and the reason it should run <code>--restricted</code>; also fixes background sessions starting with zero plugin skills during a marketplace refresh</td>
+</tr>
+<tr>
 <td>2026-08-28</td>
 <td><a href="./2026-08-28.html">open</a></td>
 <td>Claude Code 2.1.248 — a new <strong><code>--restricted</code> flag (<code>CLAUDE_CODE_RESTRICTED=1</code>)</strong> that removes the built-in tools that run commands or code and <code>WebFetch</code>, keeps file tools inside the working directory, <strong>refuses <code>bypassPermissions</code> and ignores user/project/local settings files</strong> — the per-surface split Dave decided on Aug 13 as one flag: a coaching-draft session gets the client profile directory and nothing that can run a shell, hit a URL or bypass a prompt, while fleet workers keep auto mode; same release fixes a prompt-cache miss (and lost extended-thinking context) that hit roughly once an hour in long sessions after OAuth token refreshes — a straight bill cut for all-day cmux workers — plus per-agent <code>experimental.cacheTtl</code>, <code>/loop</code> dynamic mode everywhere, and hooks that print invalid JSON now failing loudly instead of silently</td>
