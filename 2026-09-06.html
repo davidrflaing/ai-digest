@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>AI Daily Digest — 2026-09-06</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target="_blank">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 760px; margin: 0 auto; padding: 3rem 1.5rem 5rem;
+      color: #1a1a1a; background: #fbfbfa;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e6e6e6; background: #1a1a1b; }
+      h1, h2 { color: #fff; }
+      a { color: #6ea8fe; }
+      tr:nth-child(even) td { background: #232325; }
+      th { background: #232325; }
+      hr { border-color: #333; }
+      code { background: #2a2a2c; }
+    }
+    h1 { font-size: 1.9rem; letter-spacing: -0.02em; margin: 0 0 1.5rem; }
+    h2 { font-size: 1.25rem; margin: 2.2rem 0 0.8rem; padding-bottom: .35rem; border-bottom: 1px solid #e5e5e5; }
+    @media (prefers-color-scheme: dark) { h2 { border-color: #333; } }
+    blockquote { color: #666; border-left: 3px solid #ddd; margin: 1rem 0; padding: .2rem 0 .2rem 1rem; font-style: italic; }
+    @media (prefers-color-scheme: dark) { blockquote { color: #aaa; border-color: #444; } }
+    ul { padding-left: 1.2rem; }
+    li { margin: .55rem 0; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { font-weight: 650; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+    th, td { text-align: left; padding: .5rem .7rem; border: 1px solid #e5e5e5; }
+    @media (prefers-color-scheme: dark) { th, td { border-color: #333; } }
+    th { background: #f3f3f1; }
+    tr:nth-child(even) td { background: #f7f7f5; }
+    code { background: #eee; padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
+    hr { border: none; border-top: 1px solid #e5e5e5; margin: 2.5rem 0 1rem; }
+    em { color: #777; }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">AI Daily Digest — 2026-09-06</h1>
+</header>
+<h1 id="newspaper-ai-daily-digest--2026-09-06">📰 AI Daily Digest — 2026-09-06</h1>
+<blockquote>
+<p>Use This first (deployable), Worth Knowing below. ~3 min.</p>
+</blockquote>
+<h2 id="-use-this">🛠 USE THIS</h2>
+<p><strong>Claude skills / plugins / MCP</strong></p>
+<ul>
+<li>[skill] <strong>humanlayer/skills <code>improve-claude-md</code> — "Getting Claude to actually read your CLAUDE.md" (MIT; 2,950★, +451 today, top of GitHub trending)</strong> — the diagnosis is one line from Claude Code's own injection: CLAUDE.md arrives inside a <code>&lt;system_reminder&gt;</code> that says it <em>"may or may not be relevant"</em>, so the longer the file, the more sections Claude treats as discretionary; the fix is to leave the always-true context (project identity, map, stack) as plain markdown and wrap everything conditional in <strong><code>&lt;important if="you are writing or modifying tests"&gt;…&lt;/important&gt;</code></strong> blocks with <em>narrow</em> triggers ("<code>if="you are writing code"</code> matches almost everything and defeats the purpose"), which HumanLayer says mirrors how Anthropic's own system prompt is written; <code>npx skills add humanlayer/skills --skill improve-claude-md</code> then <code>/improve-claude-md</code> restructures the file in place. The same repo carries <strong><code>design-control-loop</code></strong> (interviews you, then builds a sensor → controller → actuator loop for the codebase) and <strong><code>build-iterated-agentic-loop</code></strong> (a skill plus GitHub Actions workflow with memory files). <strong>Honest flags: the pattern is from a March 17 blog post and the repo was last pushed Aug 13 — surfaced by today's trending; the evidence is "noticeably better adherence", no measurement; and the skill rewrites the file, so read the diff.</strong> Dave: his global CLAUDE.md is a routing table plus a stack of rules he has had to restate on the same tasks — the ad-hoc-pull table (three corrections), the running board's green rows — and those are exactly the "discretionary section" failure; wrap the ad-hoc-pull rule in <code>&lt;important if="Dave asks for a single-source pull or who needs a reply"&gt;</code>, the framework-canon block in <code>&lt;important if="the task touches an OCD-framework claim"&gt;</code>, and leave the project table plain; run it on a copy, diff, ratify — the harvest-canon rule applies to instructions too. <a href="https://github.com/humanlayer/skills/tree/main/plugins/improve-claude-md">↗</a></li>
+<li>[skill] <strong>GitSpawn — a repo can run code the moment an agent opens it (Manifold Security, Sept 1)</strong> — every CLI agent gathers context at startup by running <code>git status</code>/<code>git diff</code>, and git honours <strong><code>core.fsmonitor</code></strong> in the repo's own <code>.git/config</code> as a helper program to execute whenever the index refreshes — so a booby-trapped directory runs attacker code <strong>before any prompt, before the workspace-trust dialog, as the developer, outside the sandbox</strong>; the catch that limits it is that <code>git clone</code> doesn't copy config, so the vector is a repo delivered <em>as files</em> (zip, shared drive, USB, a template download). Patched: <strong>Claude Code CLI since 2.1.196</strong> (reported June 26), Codex, Cursor, Goose 1.44.0 (CVE-2026-72718); <strong>unpatched as of Sept 1 per Manifold: "Claude Code (ultrareview variant)" at 2.1.252, Hermes Agent 0.21.0 (CVE-2026-71963, six unanswered contact attempts), Qwen Code 0.22.3, Grok Build 1.0.13</strong>; mitigations are reading <code>.git/config</code> before opening anything unpacked, or <code>git -c core.fsmonitor=false status</code>. Also today: <strong>Claude Code 2.1.263 (Sept 6)</strong> lists only "bug fixes and reliability improvements" — no 2.1.262 was published. Dave: the CLI he runs has been safe since June, but the ultrareview line is the one to hold Anthropic to before the next <code>/code-review ultra</code> on a directory he didn't clone himself; Hermes was recommended reading on Sept 1 and is still open; and the rule for the machine that holds client profiles is simple — a folder that arrived as a download gets its <code>.git/config</code> read before any agent, fleet worker included, is pointed at it. <a href="https://www.manifold.security/blog/ai-coding-agents-git-hijack">↗</a></li>
+<li>[skill] <strong>anthropics/skills: <code>frontend-design</code> rewritten "to avoid generic design defaults" (PR #1713, merged Sept 3; approved by Lance Martin)</strong> — the skill now "frames the task as a design lead giving each brief its own visual identity", <strong>lists the common default looks to avoid unless the brief asks for them</strong>, and asks for deliberate choices in palette, typography and layout instead of the templated result; the Sept 1 commit before it updated <code>claude-api</code> for Fable 5.1 and the <code>cost-optimize</code> pass. Dave: <code>frontend-design</code> is one of the plugins in his tree, so it's a <code>/plugin marketplace update</code> away — and the "defaults to avoid" list is the interesting diff to read beside allowing-app's <code>DESIGN.md</code>, because the tokens file is meant to be the identity and a skill that invents a new one per brief is the wrong instrument there; scope it to the marketing pages and the book landing, keep it off the app. <a href="https://github.com/anthropics/skills/pull/1713">↗</a></li>
+</ul>
+<p><strong>GitHub repos &amp; OSS tools</strong></p>
+<ul>
+<li>[repo] <strong>Perplexity open-sources its PII gate and its Mac inference engine (Sept 1–2)</strong> — Hybrid Compute in the Perplexity Mac app lets a cloud agent hand "steps involving sensitive and private files (your bloodwork, tax returns, litigation)" to a model running on the Mac, and the two parts are now public: <strong><code>pplx-pii-masking</code></strong> (Hugging Face, MIT) is a <strong>~600M-parameter bidirectional Qwen3 encoder with two heads — token classification and a sensitivity score — tagging nine classes: <code>private_person</code>, <code>account_number</code>, <code>private_url</code>, <code>private_date</code>, <code>private_address</code>, <code>private_email</code>, <code>private_phone</code>, <code>other_pii</code>, <code>secret</code></strong>; <code>model.predict(text)</code> returns spans, <code>model.mask(text)</code> redacts, plain <code>transformers</code>, 4,096-token chunks; and <strong>Lily</strong> (in <code>pplx-garden</code>, Apache-2.0; 836★) is a Rust + Metal server for <strong>Qwen3.6-35B-A3B on Apple silicon</strong> with no PyTorch or MLX in the path — on a 128GB M5 Max, <strong>4,156 tok/s prefill and 170 tok/s decode against MLX-LM's 3,388 and 126.4</strong>, a 19.4GB 4-bit checkpoint, 32GB minimum, perplexity 0.04% off with the same top token 96.35% of the time. <strong>Honest flags: the model card gives no accuracy numbers and loads with <code>trust_remote_code</code>; the Lily demo is greedy decoding only, one model, one hardware family, no tool calling.</strong> Dave: every digest since June has carried the same rule — nothing with a client name goes to a cloud model — and this is the first open-weight classifier small enough to <em>enforce</em> it: a <code>PreToolUse</code> gate that runs <code>mask()</code> over anything a comms or delivery worker is about to send to OpenRouter or a gateway, on the Mac, in milliseconds; and Lily runs the exact model the Mac mini post (Sept 2) served at 34 tok/s on an M4 Pro, so it's the number omlx has to beat on the M5 box. Read the remote code first; the gate goes on the cheap lane, never on the SOS chat as its only protection. <a href="https://huggingface.co/perplexity-ai/pplx-pii-masking">↗</a></li>
+<li>[repo] <strong>speakeasy-api/kit — "Claude Code but faster, cheaper and more to the point" (MIT, Rust; created Aug 24, 24★; PH #7 today)</strong> — the Harness Playbook's "few deep primitives" (Sept 4) taken to its limit: the model gets <strong>one tool, <code>compose</code>, that takes a program in a small language called Runlet</strong> — read files, run tests, apply edits, retry a command, delegate to subagents — in a single round trip; the binary is also an <strong>ACP v1/v2 server, an A2A endpoint and a subagent orchestrator</strong>, over stdio, HTTP/SSE or WebSocket; it signs in to a <strong>ChatGPT subscription by OAuth</strong> or uses OpenRouter; first-party numbers from its own July–August production tasks: <strong>49.7k input tokens against Claude Code's 99.6k and Codex's 113k, five user messages against 11 and 14</strong>. <strong>Honest flags: 24 stars, the benchmark is the vendor's own tasks with no sample size, and the README's own line — "no permissions framework or sandbox… run it inside a security boundary that you trust".</strong> Dave: not a switch — a demonstration that one composable tool halves the tokens the Sept 14 cap is about, which is the argument for a Bash-first fleet worker with the Artifact and Chrome tools off (Sept 1); and the missing permission layer is why it never touches a client directory. <a href="https://github.com/speakeasy-api/kit">↗</a></li>
+<li>[repo] <strong>tailscale/tailcat — "like netcat, but over Tailscale's data plane, without Tailscale's control plane" (BSD-3; 6.4k★, +3,187 this week)</strong> — an end-to-end WireGuard tunnel between two machines with <strong>no account and no coordination server: "the address is the credential"</strong> — an ephemeral per-run key gives a single-use address, a saved key a stable one, and a published server restricts callers with <code>--allow</code> fingerprints or SSH authorized keys; SSH by name without port forwarding, SFTP drop boxes, port forwarding, inetd-style run-a-command-per-connection, exit nodes; Linux, macOS, Windows, WASM, <code>brew install</code>. <strong>Honest flag: an October 2024 repo, pushed Sept 5 — surfaced by this week's trending.</strong> Dave: the Mac mini local lane (Sept 2) was Tailscale-the-product with an account in the loop; a launchd job on the laptop that needs <em>only</em> the omlx or Lily endpoint on the mini gets one tunnel, one fingerprint, and nothing else on the mesh — the smaller the reachable surface, the less a prompt-injected worker can reach. <a href="https://github.com/tailscale/tailcat">↗</a></li>
+<li>[repo] <strong>Cloud in a Bottle — "making self-hosting accessible to everyone" (Imbue; AGPL-3.0; HN 457 / 228)</strong> — a personal-cloud OS for an old laptop, a Pi or a VPS: <strong>every app is a rootless, hardened container with minimal default permissions</strong>, one unified sign-in across apps, permission-based data sharing between them, automatic HTTPS, backups and updates; the catalogue is Nextcloud, Immich, Jellyfin, Vaultwarden, Pi-hole, Forgejo, Home Assistant and <strong>Open WebUI for local and remote LLMs</strong>, plus anything in a container from a GitHub repo; Imbue's managed version from $5/month with a $10 credit, same code. HN's ledger: the app store "leaves me cold" (skybrian), backups and disk limits undocumented (jerf), Cloudron has done this since 2019 — and <strong>the author admitted a team member had been promoting it from an undisclosed account</strong>. Dave: the comms pullers, the portal-state scripts and this digest all live on one Mac under launchd; a £50 box running Forgejo and Open WebUI is the honest shape of "not on the machine with the client profiles" — but the catalogue is thin, the backup story is missing, and nothing client-facing moves until it exists. <a href="https://cloudinabottle.org/blog/launch-post">↗</a></li>
+</ul>
+<p><strong>Marketing &amp; content AI</strong></p>
+<ul>
+<li>[mktg] <strong>Agentic video understanding in Gemini (Sept 1; 3.7 Flash, 3.6 Flash, 3.5 Flash-Lite)</strong> — instead of ingesting every frame at a fixed 1 fps, the model <strong>decides what to watch, at what speed, and through which modality (frames, audio or transcript), fetching only the moments a question needs</strong>; Google's numbers against static processing: <strong>up to 88% fewer tokens, up to 66% lower cost, up to 7% better accuracy</strong>, biggest on long-form — "10-minute how-to guides to 90-minute lectures and multi-hour recordings"; video uploads and YouTube URLs, standard token pricing with no feature fee, in the Gemini API via AI Studio and the Enterprise Agent Platform as a preview; the Gemini app "soon", Ask YouTube "in the coming months". Dave: video-use (Aug 20) never watches the frames and cdaf (Aug 31) writes one Gemini-generated sidecar per file — this is the missing piece for <em>questions</em>, "where in this 90-minute Skool call did the pricing objection come up", at a price that makes the whole call library queryable; the lane is Skool Q&amp;As, ad teardowns and public YouTube, on the paid API tier (the free one trains on inputs), and a client session recording never goes near it. <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/">↗</a></li>
+<li>[mktg] <strong>Lyria 3.5 in Gemini (Sept 4)</strong> — "more expressive vocals and richer musical arrangements" at higher fidelity, with <strong>genre selection, vocal or instrumental, templates, and a short or longer track length</strong>, rolling out globally in the Gemini web and mobile apps, Flow Music, AI Studio and Google Vids. <strong>Honest flags: the post says nothing about commercial-use terms and nothing about SynthID.</strong> Dave: meditation-producer's music beds are licensed stock; an instrumental bed generated to the exact length of a render is the obvious use and the only one — no vocals, no lyrics — and it ships under nothing until the licence page says commercial use in plain words; stemdeck (Aug 30) is how an old render takes a new bed. <a href="https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/">↗</a></li>
+<li>[mktg] <strong>ChatGPT Ads self-serve: the UK question from Sept 1, answered</strong> — two UK agency write-ups citing OpenAI's help centre put the <strong>self-serve country list at 52 as of Sept 3</strong>, with the UK's self-serve Ads Manager beta open since roughly June 19 (the June 6 UK launch was rep-only for two weeks), Japan and South Korea live, ads shown only to Free and Go users, Reach (CPM) and Clicks (CPC) objectives, conversion-optimised campaigns for eligible advertisers since June 5. <strong>Honest flag: second-hand — the help-centre page itself is the source to read.</strong> Dave: the Sept 1 action was "confirm UK self-serve eligibility"; it's confirmed, so the one-campaign test on the brand query can be built this week — /copy-claims on the copy, the ad-creative-workflow gates unchanged, and the DSA ad repository (Aug 31) means it will be public. <a href="https://www.clicky.co.uk/blog/chatgpt-ads-are-coming-to-the-uk-when-can-all-advertisers-actually-buy-them">↗</a></li>
+</ul>
+<p><strong>Sales / ops / automation AI</strong></p>
+<ul>
+<li>[ops] <strong>Keen Bean — "Mac meeting notes that draft the spec while you talk" (Show HN today, 11 / 4)</strong> — a macOS app (13+, Apple silicon or Intel) that listens to both sides through system audio and, <strong>as the call runs, raises cards for tasks and decisions, then drafts a spec, a diagram or a rough mock-up</strong> when you type a prompt or say "hey Bean, mock that up"; <strong>"nothing joins, nothing announces itself, nothing appears in the participant list — so the meeting stays a meeting"</strong>; "drafts, not deliverables — you finish them"; everything lands as Markdown and JSON on the Mac; the data path is Mac → a transcription service → a language model on capped API keys the company provisions, "no proxy and no server in that path"; <strong>$19/month (Seed) or $39 (Sprout) including AI usage, 14-day trial</strong>, and when the allowance runs out it keeps transcribing and recording but stops building. <strong>Honest flags: the transcription and model providers are not named anywhere on the site, and HN's first reaction to the tagline was "egregious slop".</strong> Dave: sales-call-engine:debrief runs on a transcript after the fact; live decision cards are the call brief closing its own loop during the assessment call — but unnamed providers is the Circleback rule (Sept 1): business and admin calls until they're named, a client session never; and "nothing announces itself" is a maker's feature and a coach's disclosure obligation — the person on the other end is told, every time. <a href="https://keenbean.app">↗</a></li>
+<li>[ops] <strong>Obsidian 1.14.0 (Sept 2; desktop in early access, mobile released)</strong> — <strong>Bases gets a kanban layout</strong> (files as ordered, draggable columns) and collapsible groups in table, cards and list; colour highlights by prefixing an emoji inside <code>==…==</code>, with <code>==</code> suggesting a colour and an inline swatch under the cursor; <strong>fixed "periodic input lag in large vaults caused by properties getting recomputed"</strong>; Temml replaces MathJax; RTL flips the whole workspace; mobile 1.14.0 adds <strong>native Quick Capture on iOS 26 from the Lock Screen and Control Center</strong>, <code>{{latitude}}</code>/<code>{{longitude}}</code> template variables and note names on the Bases widget. <strong>Honest flag: desktop 1.14 is Catalyst early access — public release to follow.</strong> Dave: the property-recompute lag is the one he'll feel in a 565-note <code>Live/</code> vault; a Bases kanban over frontmatter is the canon-gaps → canonise promotion board without a Notion database; and Lock Screen capture is the first native competitor to the telegram-capture-bot for the thought-in-the-car case. <a href="https://obsidian.md/changelog/2026-09-02-desktop-v1.14.0/">↗</a></li>
+<li>[ops] <strong>AI Toolbox 3.0 — "search, organize and export every AI chat in one place" (PH #1 today, 175)</strong> — a Chrome extension across ChatGPT, Claude, Gemini and Grok: folders with unlimited subfolders, a prompt library with chains, bulk delete and <strong>one-click export</strong>; the Claude module adds exact-match full-text search, message bookmarks, an Artifact Vault, tags, a context meter and <strong>export as TXT, Markdown, JSON or PDF</strong>; 40,000+ users, 4.6/5 on the Web Store, free plan. <strong>Honest flags: the PH page says nothing about where chat contents are processed or stored, and this is an extension with read access to every conversation in the browser.</strong> Dave: claude.ai chats now seed cross-surface memory (Sept 2), and some of them are about clients — the one honest use is a one-time Markdown export of the chat history into the vault, from a browser profile that has never held a client thread, and then the extension comes off; the Aug 30 rule about what an agent-driven browser may see applies to what an extension may read. <a href="https://www.ai-toolbox.co/claude-chrome-extension">↗</a></li>
+</ul>
+<h2 id="newspaper-worth-knowing">📰 WORTH KNOWING</h2>
+<p><strong>🚀 Models &amp; releases</strong></p>
+<ul>
+<li><strong>GPT-6 Astra vs Claude Fable 5.1 on real robot arms (Robocurve; HN 207 / 164)</strong> — a public-benefit benchmark group put both models in control of the same bimanual I2RT YAM arms through the open-source Inspect Robots framework, multi-view cameras in, 6-DoF end-effector targets out, 20 trials per task: <strong>block into bowl — Astra 19/20 (95%) against Fable 5.1's 8/20 (40%), at $0.94 versus $2.12 a run and 2.5 versus 6.8 minutes</strong>; <strong>millimetre-tolerance puzzle insertion — 2/20 each</strong>, both reaching the groove and stalling at the same final step; Astra used 6.2× fewer output tokens. The caveats are Robocurve's own: Astra ran two days later, not interleaved; the bowl comparisons used different rigs; graders knew which model they were scoring; Astra's cost wasn't discounted for caching. HN (yurimo): "one small experiment of picking up a block" on top of a whole IK controller pipeline, with no VLA baseline. Dave: nothing to build; the honest number is 10% on the task that needed precision, and "same failure at the same step" says the ceiling is the pipeline, not the model — the lesson to carry to any benchmark the labs quote this week. <a href="https://openai.robocurve.org/gpt-6-astra/">↗</a></li>
+<li><strong>"Model fatigue" (CNBC, Sept 6) — and Astra's rollout is still in progress</strong> — five releases in a working week (Fable and Mythos 5.1, Muse Spark 1.3, Gemini 3.8 Flash, GPT-6 Astra, K2 Horizon), three of them what CNBC calls point releases; OpenAI's help centre still lists Astra as rolling out to Plus, Pro, Business and Enterprise, no Free tier, no way to accelerate it on a personal plan. Dave: his default changed once this week (Sept 1) and the only other decision is whether to run the blind broadcast-draft comparison against Astra (Sept 4); everything else in the list is somebody else's harness. <a href="https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html">↗</a></li>
+</ul>
+<p><strong>🔬 Research</strong></p>
+<ul>
+<li><strong>"Large-Language Models as a Cognitive Virus" (Solé, Ruffini, Castaldo, Tuccio, Seoane, De Domenico, Elena, Krakauer, Levin; arXiv 2609.03344, Sept 3; HN 308 / 217)</strong> — LLM use modelled as an epidemic across a population: users move between <strong>uncoupled, coupled and persistently dependent</strong> states, and the interplay of social transmission, recovery and collective reinforcement produces <strong>tipping points and lock-in — "once a critical threshold is crossed, small increases in adoption can trigger rapid population-level shifts toward persistent dependence, with abrupt losses in cognitive competence"</strong> — with the same model identifying "cognitive immunization: reducing transmission and facilitating reversibility". HN's split was fair: the cognitive-decline term is assigned, not measured ("cargo cult science" — jtrn), "virus" is inflammatory framing, calculators and writing cost skills and paid for them; the defence is that mandated workplace adoption is not the same as choosing to read a book. Dave: a coach whose product is a person recovering their own capacity has an obvious stake in "reversibility" as the design variable — the paper is theory, the practical line is the one Kalache made on Sept 5 from the other side: keep doing some of the work by hand so the skill stays. <a href="https://arxiv.org/abs/2609.03344">↗</a></li>
+<li><strong>"Evaluating LLMs under production parity: a replay pipeline for safe model swapping in conversational agents" (TechforHumans, Hugging Face blog, Sept 1)</strong> — the acceptance test for changing the model under a live agent: <strong>20 approved production sessions (from 106 candidates) replayed with only the model swapped</strong>, the same user data, history and tools, tool calls simulated so nothing irreversible runs; scored on tool-calling accuracy, task completion and business rules, an LLM judge, run-to-run consistency, a 30-second latency cap, and <strong>50% quality + 20% latency + 30% cost</strong>; three models passed (GPT-5.4 mini 86.4 with zero critical hallucinations, GPT-5.4 nano, Kimi-K2.5 with zero hallucinations) and five failed <em>despite scoring over 79%</em>, because <strong>"in almost every case, the determining factor was the incidence of hallucinations, not the overall quality of the responses"</strong>; Gemini 2.5 Flash approved in 47% of runs and rejected in 44% — a statistical tie called a fail. <strong>Honest flags: 20 sessions, no code, a PDF.</strong> Dave: the SOS chat and the portal chat will change models again — Fable 5.1's breaking changes (Sept 2) were the first time — and this is the shape of the gate: a fixed replay set of ratified sessions, simulated tools, and a hallucination threshold that overrides the quality score; the Meta "regression suite of ratified corrections" (Sept 4) is the same idea for skills. <a href="https://huggingface.co/blog/TechforHumans/evaluating-llms-under-production-parity">↗</a></li>
+<li><strong>Benedict Evans, "AI, tools and transformation" (Sept 3; HN 82 / 34)</strong> — giving everyone Copilot or ChatGPT produces a few heavy users, some productivity and a lot of twice-a-week — the same curve as <strong>"if you'd given everyone in the company a PC and Lotus 123 in 1983, or an internet connection and a web browser in 1997"</strong>; <strong>"most people are not tool builders"</strong> and can't see their own process inefficiencies, so change arrives through pilots, professional services and buy-versus-build decisions, from improvised workaround to institutionalised system; the real change is the thing "that wasn't even possible before and that no-one even imagined". Dave: he is the exception Evans describes and his clients are the rule — the portal, the SOS door and the programme have to be finished workflows, never tools; and "people can't see their own inefficiencies" is the case for improving skills from session evidence (skill-doctor, Aug 31) rather than from what he remembers going wrong. <a href="https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation">↗</a></li>
+</ul>
+<p><strong>💼 Business &amp; notable</strong></p>
+<ul>
+<li><strong>OpenAI confirms the "wiki incident" and promises a misalignment-disclosure framework "in upcoming weeks" (Sept 5)</strong> — the statement says it is <strong>"past time" to "define standards"</strong> for reporting incidents, that OpenAI had <strong>"treated misalignment largely as a research question"</strong>, that the industry has no clear standard for reporting misalignment "that shows up during training, evaluation, and deployment", and that it is working "with dozens of government regulatory agencies worldwide"; it files the wiki as a misalignment case and the Hugging Face breach as a conventional security incident. The regulators are already in the room: <strong>16 state attorneys general led by Montana's Austin Knudsen opened a formal investigation on Sept 1</strong> over the Hugging Face intrusion (their Aug 3 letter: "the unprecedented risks posed by OpenAI's irresponsible products and conduct"), and California's Rob Bonta is reported to be investigating it separately. Dave: nothing to change — the receipts were Sept 5's collusion.wiki item — and the line to hold every vendor to, his included, is a written disclosure standard rather than a blog post after Reuters calls. <a href="https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/">↗</a></li>
+<li><strong>LiteLLM's MCP endpoint let anyone in — CVE-2026-59822, CVSS 8.8, exploited in the wild, added to CISA's KEV on Sept 3</strong> — the MCP Streamable HTTP handler's OAuth2 passthrough fallback replaced a failed key check with an empty auth object, so <strong>any bearer token opened an authenticated MCP session that could list and call every configured tool</strong> and reach whatever sat behind them; fixed in 1.84.0, alongside an admin-API takeover (CVE-2026-35029); Kestra and Starlette went into the same KEV batch. Dave: LiteLLM is the proxy under a good share of the "one endpoint for every model" gateways this digest has logged (freellmapi, my-free-code, experiential's category) — <code>pip show litellm</code> on the Mac mini and anything self-hosted, upgrade, and confirm every gateway binds to localhost or the tailcat tunnel above, because an MCP endpoint that fronts tools is a door, not a feature. <a href="https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html">↗</a></li>
+<li><strong>Anthropic's prospectus is expected public after Labor Day (Sept 7), listing late September or early October, target valuation up to $2 trillion</strong> — the reporting since Sept 3: investor events mid-September, a confidential S-1 on June 1, more than $130B raised privately, the spring round at a $965B post-money — with the Sept 1 note that the timing is being read against the November midterms. Dave: the S-1 is the first honest look at the unit economics behind a Max plan, and it lands the same fortnight as the Sept 14 limit trim — read the two together. <a href="https://www.fool.com/investing/2026/09/03/anthropic-planning-unveil-ipo-details-labor-day/">↗</a></li>
+</ul>
+<hr />
+<p><em>Generated 2026-09-06 · X is surfaced via search snippets, not live-scraped; ranking is editorial.</em> <em>Backstop: <a href="https://news.smol.ai">Smol AI — AINews</a> · <a href="./index.html">← Back to INDEX</a></em></p>
+</body>
+</html>
