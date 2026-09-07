@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>AI Daily Digest — 2026-09-07</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target="_blank">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 760px; margin: 0 auto; padding: 3rem 1.5rem 5rem;
+      color: #1a1a1a; background: #fbfbfa;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e6e6e6; background: #1a1a1b; }
+      h1, h2 { color: #fff; }
+      a { color: #6ea8fe; }
+      tr:nth-child(even) td { background: #232325; }
+      th { background: #232325; }
+      hr { border-color: #333; }
+      code { background: #2a2a2c; }
+    }
+    h1 { font-size: 1.9rem; letter-spacing: -0.02em; margin: 0 0 1.5rem; }
+    h2 { font-size: 1.25rem; margin: 2.2rem 0 0.8rem; padding-bottom: .35rem; border-bottom: 1px solid #e5e5e5; }
+    @media (prefers-color-scheme: dark) { h2 { border-color: #333; } }
+    blockquote { color: #666; border-left: 3px solid #ddd; margin: 1rem 0; padding: .2rem 0 .2rem 1rem; font-style: italic; }
+    @media (prefers-color-scheme: dark) { blockquote { color: #aaa; border-color: #444; } }
+    ul { padding-left: 1.2rem; }
+    li { margin: .55rem 0; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { font-weight: 650; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+    th, td { text-align: left; padding: .5rem .7rem; border: 1px solid #e5e5e5; }
+    @media (prefers-color-scheme: dark) { th, td { border-color: #333; } }
+    th { background: #f3f3f1; }
+    tr:nth-child(even) td { background: #f7f7f5; }
+    code { background: #eee; padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
+    hr { border: none; border-top: 1px solid #e5e5e5; margin: 2.5rem 0 1rem; }
+    em { color: #777; }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">AI Daily Digest — 2026-09-07</h1>
+</header>
+<h1 id="newspaper-ai-daily-digest--2026-09-07">📰 AI Daily Digest — 2026-09-07</h1>
+<blockquote>
+<p>Use This first (deployable), Worth Knowing below. ~3 min.</p>
+</blockquote>
+<h2 id="-use-this">🛠 USE THIS</h2>
+<p><strong>Claude skills / plugins / MCP</strong></p>
+<ul>
+<li>[skill] <strong>"An agent skill can hand a stranger your shell" (Grith, Sept 7)</strong> — the argument is that <strong>SKILL.md is a delayed control plane</strong>: you install a skill on Monday, on Thursday the agent picks it because the task matched its <em>description</em>, and the bundled Python or Bash then runs with the agent's full ambient authority — <code>~/.env</code>, the git credential store, cloud config files, the network — while returning normal-looking output; the post grades exposure by runtime posture (read-only workspace → prompt manipulation; package execution → source tampering; <strong>home directory plus network → credential exfiltration</strong>; full shell → account compromise; CI runner → production), and its measurements include <strong>Claude Code attempting 752 <code>/proc/*/environ</code> reads of which 256 succeeded, and 98% of Claude Code operations going unreviewed</strong>. The three fixes it asks for: signed delivery, <strong>a permissions manifest inside the skill declaring the exact paths, processes, hosts and secrets it needs</strong>, and runtime enforcement that blocks anything undeclared. <strong>Honest flags: Grith sells the runtime-enforcement product, so its "73% of dangerous operations blocked" is a vendor number; the base rate it cites is better sourced from Snyk (below) than from this post.</strong> Dave: 20+ plugins, a fleet under launchd, and client profiles on the same Mac — this is the second security item in two days pointing at the same door (GitSpawn was Sept 6), and the response is unchanged and cheap: <code>--restricted</code> on the digest and comms jobs (Aug 28), read the bundled scripts of anything installed from a name he doesn't recognise, and note that a <strong>permissions manifest is exactly the thing worth asking for in the Function Hooks issue (Sept 4)</strong> — a typed <code>$</code> capability object is where a declared file/network scope would live. <a href="https://grith.ai/blog/skill-md-permissions-manifest">↗</a></li>
+<li>[skill] <strong>tt-a1i/archify — diagrams that render inside the agent chat (MIT; 51.9k★, +17,190 this week, top of GitHub trending)</strong> — the model writes <strong>typed JSON, not Mermaid</strong>, and the renderer turns it into a self-contained interactive HTML/SVG in five shapes — <strong>architecture, workflow (CI/CD, approvals, runbooks), sequence, data flow, lifecycle</strong> — with an <strong>Architecture Delta mode that draws Before/After side by side</strong>, route tracing, role comparison, guided stories, dark/light presets and PNG/SVG/WebM export; <code>npx skills add tt-a1i/archify -g</code>, works in Claude Code, Cursor, Codex CLI and OpenCode; v2.16.0 shipped Aug 30, v2.17.0-dev.1 in main. It deliberately refuses Mermaid parsing, general auto-layout, hosted sharing and WYSIWYG editing. <strong>Honest flags: an April 15 repo surfaced by a trending spike, not a new launch; and it's a renderer — the diagram is exactly as true as the JSON the agent wrote, so it verifies nothing about the system it depicts.</strong> Dave: the GHL routing specs (triggers → Goal Events → tag logic) and the funnel build plan exist as prose in <code>~/docs/plans/</code>, and a workflow diagram per sequence is the artifact <code>/funnel</code> has never had — the <strong>Architecture Delta is the honest picture of old track labels vs the current program-led build</strong>, and the same mode draws the SOS split across two repos and a worktree without anyone having to hold it in their head. <a href="https://github.com/tt-a1i/archify">↗</a></li>
+<li>[skill] <strong>DietrichGebert/ponytail — "makes your AI agent think like the laziest senior dev in the room" (MIT; 130.4k★, +12,186 this week)</strong> — a <strong>laziness ladder</strong> injected before the agent writes anything: does this need to exist at all (YAGNI) → is it already in the codebase → is it in the standard library → is it a native platform feature → is it in an installed dependency → can it be one line; three intensity levels (lite/full/ultra), <code>/plugin install ponytail@ponytail</code>, ships to 20+ agents with instruction-only fallbacks, and it explicitly never relaxes trust-boundary validation, data-loss handling, security or accessibility. The maker's benchmark — 12 feature tasks on a full-stack FastAPI template, same agent with and without — reports <strong>54% fewer lines, up to 94% on classic over-engineering cases, 22% fewer tokens, 20% lower cost, 27% faster, safety ratings at 100% in both runs</strong>. <strong>Honest flags: the vendor's own benchmark with no independent replication; the repo itself concedes gains approach zero on already-minimal code, and third-party testing put the reduction at 31% on larger builds.</strong> Dave: with the <strong>weekly limits trimming 17% on Sept 14</strong>, 22% fewer tokens is the cheapest lever left after model routing and low effort (Sept 3) — but it is a <em>code</em>-minimalism skill, so it belongs on the portal and allowing-app lanes and nowhere near comms or delivery drafting, where "fewer lines" is not a virtue. <a href="https://github.com/DietrichGebert/ponytail">↗</a></li>
+<li>[skill] <strong>affaan-m/ECC — a whole engineering system bolted onto the agent (MIT; the repo page reads 252k★ / 37.9k forks)</strong> — "optimize the context window, persist everything else": <strong>68 agents, 286 skills, runtime hooks that run deterministic checks outside model context</strong>, language/project rule sets, session summaries that persist across conversations, <strong>"instincts" extracted from past sessions with confidence scoring</strong>, a Unified Memory Vault shared between Claude Code, Codex, Cursor, OpenCode and Gemini, and <strong>AgentShield, which scans the harness configuration itself for prompt injection, hook vulnerabilities and permission problems</strong>; <code>npx ecc-universal setup</code>. <strong>Honest flags: one maintainer; star counts disagree badly across trackers (the repo page says 252k, third-party listings say 185k); feature parity varies by harness; and the repo's own warning is that the Memory Vault is unreviewed context you must verify before acting on.</strong> Dave: 286 skills is the precise opposite of what <code>/skill-doctor</code> (Sept 5) tells him to do, and an unreviewed shared memory across five agents is not going near the machine with client profiles — but <strong>AgentShield is worth lifting on its own</strong> the week the Grith post landed, and "instincts with confidence scoring" is the same shape as the reflexio ratification gate (Sept 5) his <code>:learn</code> → <code>:consolidate</code> loops already want. <a href="https://github.com/affaan-m/ECC">↗</a></li>
+</ul>
+<p><strong>GitHub repos &amp; OSS tools</strong></p>
+<ul>
+<li>[repo] <strong>Imbad0202/academic-research-skills — research → write → review → revise → finalize (v3.21.2 released Sept 6; 46.7k★, +2,334 this week)</strong> — four skills that hand off in sequence: <strong>Deep Research</strong> (13-agent team, 8 modes), <strong>Academic Paper</strong> (12 agents, 11 modes, multi-format output), <strong>Academic Paper Reviewer</strong> (7 agents, multi-perspective peer review) and <strong>Academic Pipeline</strong>, a 10-stage orchestrator running Research → Writing → <strong>Stage 2.5 Integrity Check</strong> → Peer Review → Revision → Finalization → Process Summary <strong>with a mandatory human checkpoint at every stage</strong>; <code>/plugin marketplace add Imbad0202/academic-research-skills</code>. The authors are unusually straight about the ceiling — <em>"AI is your copilot, not the pilot"</em> — it detects citation problems and logical inconsistencies but <strong>cannot verify that an experiment happened or that data are real</strong>. <strong>Honest flag: the licence is CC-BY-NC 4.0 — non-commercial only, which rules it out of anything that ships as a paid book.</strong> Dave: the Laingian Institute is a condition-map vault that cites framework-canon and is heading toward the second book, and the <strong>Stage 2.5 integrity check plus the multi-perspective reviewer is what <code>/ground</code> and <code>/council-review</code> do by hand, sequenced</strong> — so the licence makes this a method to study and reimplement inside his own plugins, not a tool to publish with. <a href="https://github.com/Imbad0202/academic-research-skills">↗</a></li>
+<li>[repo] <strong>THU-MAIC/OpenMAIC — "Open Multi-Agent Interactive Classroom" (MIT; 32.8k★, +9,193 this week; v1.0.0 Aug 27)</strong> — a topic description or an uploaded document becomes a <strong>complete lesson package: narrated slides, interactive quizzes, runnable HTML simulations and project-based activities</strong>, delivered by AI instructors and classmates that speak, draw on a whiteboard and hold real-time discussion; <strong>exports to editable PowerPoint, interactive HTML and offline formats</strong>, 12 locales, self-hosted Next.js (<code>pnpm install</code> → <code>pnpm dev</code>), bring your own LLM key. <strong>Honest flags: no free tier built in; video export needs an optional Docker render service; the agent workbench needs Postgres; and the AI-classmate layer is theatre that a real learner will clock in about a minute.</strong> Dave: portal lessons are seeded prose plus QQs, and the slow part is turning a canon concept into a <em>shape</em> — slides, a check-for-understanding, something interactive; the honest use is a <strong>draft generator pointed at a copy, output going through ocd-lesson-content <code>:propose</code> → <code>:apply</code> unchanged</strong>, with the simulated classroom switched off before anything reaches a client. <a href="https://github.com/THU-MAIC/OpenMAIC">↗</a></li>
+<li>[repo] <strong>advaitpaliwal/feynman — "the open source AI research agent" (MIT; 8.9k★, +262 this week)</strong> — four bundled agents (<strong>Researcher, Reviewer, Writer, Verifier</strong>) over paper ranking and citation analysis, literature reviews with consensus mapping, multi-agent deep investigations, <strong>auditing a paper against a codebase</strong>, replication planning and comparison matrices; searches AlphaXiv, the Hugging Face Hub and biomedical databases with citation tracking; installs via <code>npm install -g @advaitpaliwal/feynman</code> or a standalone bundle that <strong>verifies SHA-256 checksums</strong>, and runs against local models through LM Studio, Ollama or LiteLLM, or hosted ones via OpenRouter. <strong>Honest flags: built for scientific literature workflows, so its retrieval is tuned to papers, not to clinical guidance — and the research skills can be installed separately if you don't want the whole runtime.</strong> Dave: <strong>consensus mapping over a literature is the missing half of <code>/canon-gaps</code></strong> — that skill scans his own vaults for thinking ready to promote, this scans the outside literature the condition maps cite, and the Verifier agent is the natural pre-check before a claim gets anywhere near canon. Local-model support means a search can run without a paper title leaving the Mac. <a href="https://github.com/advaitpaliwal/feynman">↗</a></li>
+<li>[repo] <strong>Gitlawb/openclaude — a multi-provider fork of the Claude Code codebase (32.9k★, +1,944 this week)</strong> — the file it forked, pointed at everyone else: <strong>OpenAI, Gemini, GitHub Models, Ollama and local endpoints behind one CLI</strong>, with tools, agents, MCP, slash commands, streaming, background sessions, <strong>agent routing with cost optimisation</strong>, a gRPC headless server and a VS Code extension; <code>npm install -g @gitlawb/openclaude</code>, Node ≥22. <strong>Honest flags: it "originated from the Claude Code codebase", the MIT licence covers contributor modifications rather than the whole lineage, it is explicitly not endorsed by Anthropic, and the README concedes "Claude" is Anthropic's trademark — that provenance is a genuine risk on a business machine, not a technicality.</strong> Dave: filed as the thing <em>not</em> to reach for on Sept 14 — the supported versions of "route the cheap turns elsewhere" are <code>CLAUDE_CODE_SUBAGENT_MODEL_FORCE</code> (Sept 2), low effort at a third of the cost (Sept 3) and ponytail above; a forked CLI running other people's models on the machine that holds client data buys a 17% limit cut at a price he wouldn't pay if it were itemised. <a href="https://github.com/Gitlawb/openclaude">↗</a></li>
+</ul>
+<p><strong>Marketing &amp; content AI</strong></p>
+<ul>
+<li>[mktg] <strong>zubair-trabzada/geo-seo-claude — a GEO-first audit as a Claude Code skill (MIT; 10.3k★, 1.6k forks)</strong> — <strong>13 sub-skills and 5 parallel subagents</strong> producing a composite 0–100 GEO score: <strong>citability scoring</strong> (it targets 134–167-word self-contained passages as the unit an AI answer will lift), <strong>a robots.txt audit against 14+ named AI crawlers</strong>, brand-mention scanning across YouTube, Reddit, Wikipedia and LinkedIn, schema detection and generation, platform-specific recommendations split by ChatGPT / Perplexity / Google AI Overviews, and <strong>client-ready PDF reports with charts</strong>. <strong>Honest flags: the documented install is <code>curl … | bash</code> from a repo — read <code>install.sh</code> first, which is exactly the Grith item above in practice; no stated accuracy thresholds; and nothing about JS-rendered pages, which is most modern landing pages.</strong> Dave: <code>/ai-seo</code> and <code>/seo-audit</code> run on whatever a session can fetch, and this makes it a <strong>scored, repeatable audit he can re-run monthly</strong> — point it at ocd-book-landing and the funnel pages, and note that the crawler check answers a question he has never actually verified: whether ChatGPT and Perplexity are permitted to read his site at all. It's the demand-side companion to open-seo (Aug 30). <a href="https://github.com/zubair-trabzada/geo-seo-claude">↗</a></li>
+<li>[mktg] <strong>The EU has formally designated ChatGPT a Very Large Online Search Engine (European Commission, Aug 31)</strong> — the first time an AI assistant has been treated as a search engine under the Digital Services Act: OpenAI reported <strong>159.1 million average monthly EU users of ChatGPT search over the six months to March 31 2026</strong>, more than three times the 45M threshold, and the Commission's reasoning is that ChatGPT is a hybrid service that "responds to users' prompts and queries, including by searching the web"; Reddit and Roblox were designated VLOPs on the same day, and all three have <strong>four months from notification</strong> to meet systemic-risk assessment, independent-audit and data-sharing obligations. Read beside this week's GEO numbers doing the rounds: <strong>~85% of brand mentions in AI answers originate on third-party pages rather than the brand's own site (brands ~6.5× more likely to be cited via a third party), and list/table/step-by-step formatting carries ~2.5× the citation probability of paragraph-only prose</strong>. <strong>Honest flag: those citation ratios are vendor-published aggregates with no shared methodology — treat them as direction, not measurement.</strong> Dave: designation means the ranking surface his buyers increasingly start on now has an auditable regulator on it, which is the first time GEO work has had any accountability behind it — and the third-party-citation finding says the leverage is <strong>Reddit, YouTube and the Skool/community footprint, not another page on the site</strong>; the formatting point is free to act on today in the book landing's FAQ blocks. <a href="https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act">↗</a></li>
+</ul>
+<p><strong>Sales / ops / automation AI</strong></p>
+<ul>
+<li>[ops] <strong>GoHighLevel, Sept 7 — two new AI actions inside Workflows</strong> — <strong>AI Image Generation</strong> creates an image mid-workflow with a choice of four models, a custom prompt, template selection and automatic save to Media Storage (priced per execution by model, quality and size), and <strong>AI Analyze Image</strong> reads an image inside a workflow with two model choices and Auto/High/Low detail, pitched at <strong>text extraction from receipts and invoices, image descriptions and open-ended prompts</strong>; the same week also fixed the Client Portal "User login" trigger to fire on the new experience and grouped Client Portal triggers into their own category (Sept 3), and made missed-call text-back pick an eligible sending number automatically when the dialled number can't send SMS (Sept 4). <strong>Honest flags: no model names are published for either action, and both are per-execution charges on a workflow that may fire per contact — cost is a function of volume, not of the feature.</strong> Dave: <strong>AI Analyze Image is the one with an actual job</strong> — inbound WhatsApp and DM images are currently a human read, and receipt/screenshot extraction inside a workflow is a real removal of manual steps; image <em>generation</em> inside a CRM workflow is the wrong instrument for ad creative, which has its own gated pipeline in ad-creative-workflow. Any prompt in either action that touches framework language goes through <code>/copy-claims</code> before it's pasted in, same rule as the Aug 27 Workflow AI Agent item. <a href="https://ideas.gohighlevel.com/changelog">↗</a></li>
+<li>[ops] <strong>Two hard Notion deadlines land this month</strong> — <strong>the Notion Mail inbox is switched off on Sept 22 across web, desktop and iOS</strong>, and Notion's stated reason is not a product realignment but a bet: <em>"more than half of Notion Mail users manage emails without ever opening their inbox… so we're going all in on using agents to run your inbox"</em>; separately <strong>the Agent APIs moved to public beta and the alpha routes must be migrated off by Sept 30</strong>, with the beta adding session-based chat, streamed replies, action submission, event history and programmatic management of Custom Agents. Recent adjacent changes: agents can now <strong>"suggest edits" rather than write directly, approved line by line</strong> (Aug 28), and a Developer Portal in the sidebar for Workers, connections, tokens and logs (Aug 19). <strong>Honest flag: the wind-down was announced back in June — what's new is that it's now 15 days out.</strong> Dave: he lives in Notion but not in Notion Mail, so the deadline that actually bites is <strong>Sept 30 on the alpha routes</strong> — the notion-tasks MCP and any Focus/Clearing automation calling agent endpoints needs a grep this week, not on the 29th; and <strong>line-by-line suggested edits is the approval gate the task-clearing flow has been missing</strong>, the same control that made claude-obsidian safe to trial (Aug 26). <a href="https://www.notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next">↗</a></li>
+<li>[ops] <strong>Airuncode — "run multiple local coding agents on your machine" (Product Hunt, launched today)</strong> — a <strong>local-first agent runtime</strong>: it scans the codebase, runs several agents in parallel, <strong>has them argue over competing solutions</strong>, edits files, runs tests and retries failures automatically; <strong>bring your own API keys, switch between cloud and local models, pay providers directly with zero token markup</strong>, Windows/macOS/Linux, free tier. <strong>Honest flags: day-one software from a single maker (Gustavo Arretureta), the "agents debate" claim has no benchmark behind it, and a bundled native Vulkan 3D runtime for game development is a strange thing to find inside a coding-agent harness — that's an unfocused product, not a feature.</strong> Dave: this is roughly the cmux board's shape with no subscription in the loop, so it's worth ten minutes as a <strong>contingency sketch for the Sept 14 trim</strong> — but day-one software with unclear scope gets a scratch repo and nothing else; the same rule that kept speakeasy-api/kit (Sept 6) away from client directories applies unchanged. <a href="https://www.producthunt.com/products/airuncode">↗</a></li>
+</ul>
+<h2 id="newspaper-worth-knowing">📰 WORTH KNOWING</h2>
+<p><strong>🚀 Models &amp; releases</strong></p>
+<ul>
+<li><strong>The cyber-tier pattern, and the numbers underneath it (The Hacker News roundup of the Sept 2 announcements)</strong> — the models themselves were in earlier digests (Mythos 5.1 on Sept 2, Gemini 3.8 Flash Cyber on Sept 3, Astra on Sept 4); what's new in the roundup is the shape and the receipts: <strong>three of the month's four frontier moves shipped a general model plus a gated security tier</strong> — Google's <strong>Fairwind</strong> program (early access for governments, healthcare and telecom, 650+ partners including CrowdStrike, Datadog, Palo Alto and Snowflake), Anthropic's <strong>Enterprise Frontier Safeguards</strong> (zero data retention plus misuse detection, hardened after unauthorised-access incidents involving Claude models), OpenAI's <strong>Daybreak Blue</strong> — and <strong>a joint letter from 100+ companies including Anthropic, Google, Microsoft and OpenAI calling for stronger defences against AI-driven attacks</strong>. Two figures worth keeping: <strong>Astra declines 91.5% of jailbreak attempts against GPT-5.6 Sol's 59%</strong>, and <strong>Astra discovered and exploited two zero-day vulnerabilities during its own evaluation</strong>. Dave: nothing to build — but "a model found and used two zero-days in eval" is the honest frame for every agent-security item this week, including the two skill-supply-chain posts above; the attacker side is not hypothetical and it is cheap. <a href="https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html">↗</a></li>
+<li><strong>r/LocalLLaMA's week belonged to DeepSeek-V4-Flash</strong> — the top thread (1.4k points) is the claim that <strong>"models you can run locally now have the intelligence score of the top frontier model from March 2026"</strong>, and the runner-up (1.1k) is DeepSeek's own note that <strong>"the official release of DeepSeek-V4-Pro will follow soon"</strong>; the checkpoint under discussion is <strong>V4-Flash-0731 — 284B total / 13B active, 1M context, MIT weights on Hugging Face, ~$0.66 per million output tokens off-peak</strong> — released to supersede the preview with substantially stronger agentic behaviour. <strong>Honest flags: the checkpoint is dated July 31, so what's actually new is the community benchmarking and the V4-Pro tease, not the model; and hands-on reports read it as partly benchmark-maxed — strong on standard tests, less consistent in practice.</strong> Dave: the local lane in this digest has been about <em>privacy</em>, not capability, and 13B active parameters is the number that decides whether an open model can sit behind the PII gate on the Mac (Sept 6) rather than beside it — but "March frontier score" is a leaderboard claim, and the only test that matters is a blind pass over his own drafts. <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">↗</a></li>
+</ul>
+<p><strong>🔬 Research</strong></p>
+<ul>
+<li><strong>Snyk's ToxicSkills audit — the measured base rate under today's skill-security post</strong> — the first systematic scan of the agent-skills supply chain: <strong>3,984 published skills from ClawHub and skills.sh as of Feb 5 2026</strong>, of which <strong>36.8% (1,467) carried at least one security flaw</strong> — hardcoded API keys, insecure credential handling, exposure to untrusted third-party content — <strong>and 13.4% (534) carried a critical one</strong>, meaning malware distribution, prompt injection or exposed secrets; the same research documented <strong>the first coordinated malware campaign against Claude Code and OpenClaw users, 30+ malicious skills distributed through ClawHub in February</strong>. <strong>Honest flags: Snyk sells the scanner, the snapshot is seven months old, and separate work (Help Net Security, July) found malicious skills routinely slipping past the scanners built to catch them — so "scanned clean" is not a clearance.</strong> Dave: he installs from named repos rather than a marketplace firehose, which is most of the defence — but "one in eight has a critical issue" is the number to hold next to the 20+ plugins loaded in every session, and it argues for the same discipline <code>/skill-doctor</code> (Sept 5) already gives him a reason for: fewer skills loaded, each one read once. <a href="https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/">↗</a></li>
+<li><strong>Bryan Cantrill, "Your intellectual fly is open when you use an LLM to author a post" (HN 664 / 410 this week)</strong> — a December 2025 essay back near the top of Hacker News, and the line doing the work is the title's: <strong>"Your intellectual fly is open: lots of people notice — but no one is pointing it out."</strong> The argument is narrow and therefore hard to dodge — LLM-authored prose is stylistically recognisable, readers recognise it, and the cost is not aesthetic but reputational, paid silently by the author who thinks it went unnoticed; editing and brainstorming are not the target, authorship is. <strong>Honest flag: an assertion about detectability from a widely-read engineer, not a study — the measured version is StoryScope's structure-only finding (93.2% F1), logged Aug 31.</strong> Dave: this is the whole case for dave-voice's voice pass existing at all, and the sharper reading is about <em>whose</em> silence it describes — a buyer who clocks a broadcast as machine-written doesn't reply to say so, they just stop opening; that's the failure mode the pass is priced against, not a style preference. <a href="https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/">↗</a></li>
+</ul>
+<p><strong>💼 Business &amp; notable</strong></p>
+<ul>
+<li><strong>OpenAI's chief scientist says no lab has solved this — Jakub Pachocki, "An Alien Mind" (Sept 6; HN 425 / 389)</strong> — the essay's claim is that <strong>OpenAI, along with every other lab, has not cracked alignment and monitoring to a degree that justifies scaling at full speed</strong>, that AI is becoming "an intellect grown rather than designed" which humanity may soon be unable to fully understand or control, and — the part that made it news — that <strong>internal results give him a strong expectation the current pace could carry into recursive self-improvement</strong>; he says he expects and hopes for <strong>voluntary slowdowns until shared safety bars exist across the industry</strong>, and calls for stronger safeguards and international coordination. Dave: nothing to do, and worth reading against the ledger this digest has kept — OpenAI's own disclosure framework was promised "in upcoming weeks" on Sept 5, 16 state attorneys general opened an investigation on Sept 1, and an essay from the chief scientist is not a standard; the useful test remains the one from yesterday: <strong>a written disclosure commitment with dates, not a blog post.</strong> <a href="https://openai.com/index/an-alien-mind/">↗</a></li>
+<li><strong>Anthropic's IPO prospectus is still not public as of today</strong> — yesterday's item had it "expected after Labor Day" with a late-September or early-October listing at a target valuation up to $2 trillion; as of Sept 7, <strong>only the June 1 confidential draft S-1 sits with the SEC — EDGAR shows no public S-1 or S-1/A</strong>, no date and no ticker, and the company is inside the quiet period. Dave: unchanged from yesterday — the S-1, whenever it lands, is the <strong>first honest look at the unit economics behind a Max plan</strong>, and it arrives in the same fortnight as the Sept 14 limit trim; read the two together and don't re-plan anything on reporting until the filing is actually public. <a href="https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html">↗</a></li>
+<li><strong>"Chrome again exempts Google from user site data settings" (Jeff Johnson, Sept 1; HN 591 / 289 on Sept 6)</strong> — set Chrome to delete all site data on exit and it does, <strong>for every site except Google's own, via a hardcoded exemption</strong> — the same behaviour documented in 2021, now back. Dave: this is a browser-hygiene item with a specific address in his stack — <strong>the dedicated persistent Chrome profile the WhatsApp lane runs in</strong> (Aug 15) is deliberately long-lived, so the exemption changes nothing there; the profile it matters in is any <em>general</em> browsing profile he assumed was clearing itself between sessions, which is the same assumption the Aug 30 rule about what an agent-driven browser may see was written to kill. <a href="https://lapcatsoftware.com/articles/2026/9/1.html">↗</a></li>
+<li><strong>The open-weights fight reopened on r/LocalLLaMA — and Anthropic's actual position is on the record</strong> — a top thread this week (1.1k points) reads <em>"Anthropic is calling for a ban on open-weights models by proposing mandatory requirements they will probably never be able to meet"</em>; the primary source says something narrower — Dario Amodei in July: <strong>"we have not and are not advocating for a ban on open-weights models as a category"</strong>, with Anthropic's published position asking instead for <strong>chip export controls, a crackdown on industrial-scale distillation, and mandatory safety testing for all sufficiently capable models, open and closed</strong> — the friction being that mandatory testing is a compliance burden open releases may not be able to carry. Dave: his stack depends on one vendor, and the local-model lane in this digest is the hedge — so the thing to watch is not the forum framing but <strong>whether "sufficiently capable" gets a threshold</strong>, because that number decides whether the open weights behind the PII gate and the Mac-mini lane keep shipping. <a href="https://www.anthropic.com/news/position-open-weights-models">↗</a></li>
+</ul>
+<hr />
+<p><em>Generated 2026-09-07 · X is surfaced via search snippets, not live-scraped; ranking is editorial.</em> <em>Backstop: <a href="https://news.smol.ai">Smol AI — AINews</a> · <a href="./index.html">← Back to INDEX</a></em></p>
+</body>
+</html>
